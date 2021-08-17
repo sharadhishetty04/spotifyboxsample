@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* background-color: black; */
+
+        }
+        .box{
+            width: 100%;
+            height: 75vh;
+            background-color: black;
+            display: flex;
+            
+            justify-content: center;
+        }
+        .innerbox{
+            width: max-content;
+            height: max-content;
+             transition: background-color 1s;
+             border-radius: 5px;
+              padding: 15px 10px;
+              box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+              -webkit-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+            margin: 15px;
+            margin-top: 60px;
+             color: rgb(255, 255, 255);
+            background-color: rgb(22, 21, 21);
+        }
+        .innerbox:hover{
+            background-color: #4948489a;
+            /* background-color: #3b3a3a9a; */
+
+           
+        }
+        .img {
+            position: relative;
+        }
+        .img #two{
+    position: absolute;
+      bottom: 15px;
+       right: 2px;
+       /* display: none; */
+       opacity: 2;
+        }
+      
+
+        img #one{
+            margin-bottom: 12px;
+        }
+        .innerbox h3{
+            font-weight: 500;
+            margin-bottom: 7px;
+            letter-spacing: 1px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .innerbox p{
+   color: rgb(177, 177, 177);
+   margin-bottom: 15px;
+        }
+        h1{  text-align: center;
+              font-size: 62.5px;
+            color: chartreuse;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          padding-top: 130px;
+          background-color: black;
+        
+        }
+    </style>
+</head>
+<body>
+
+    <div class="head">
+        <h1><u>Spotify clone</u><span>😍</span></h1>
+    </div>
+
+
+    <div class="box">
+        <div class="innerbox">
+            <div class="img">
+            <img src="noraimg.webp" id="one" alt="" width="200px" height="210px">
+            <img src="Spotify-Play-Button-1.png" id="two" alt="" width="40px" height="40px">
+            </div>
+            <div class="text">
+                <h3>Bollywood Best Party..</h3>
+                <p>Various artists</p>
+            </div>
+        </div>
+
+
+        <div class="innerbox">
+            <div class="img">
+            <img src="kgf.jfif" id="one" alt="" width="200px" height="210px">
+            <img src="Spotify-Play-Button-1.png" id="two" alt="" width="40px" height="40px">    
+        </div>
+            <div class="text">
+                <h3>Best Kannada songs..</h3>
+                <p>By vijay praksh</p>
+            </div>
+        </div>
+
+
+        <div class="innerbox">
+            <div class="img">
+            <img src="master.jfif" id="one" alt="" width="200px" height="210px">
+            <img src="Spotify-Play-Button-1.png" id="two" alt="" width="40px" height="40px">
+
+            </div>
+            <div class="text">
+                <h3>Best tamil songs..</h3>
+                <p>Various artists</p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
